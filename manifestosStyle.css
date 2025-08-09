@@ -1,0 +1,126 @@
+    * {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lavender;
+  color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #002417;
+  transition: color 0.3s ease-in-out;
+  margin-left: 50px;
+}
+
+.nav a:hover,
+.nav a.active {
+  color: #31487A;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.manifesto-section {
+  display: flex;
+    padding: 40px 0;
+    color: #1a1a3d;
+}
+.vertext {
+  position: absolute;
+  transform: rotate(90deg);
+  left: -50px;
+  top: 300px;
+  font-weight: none;
+  font-size: 16px;
+  color: hsl(212, 100%, 14%);
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.ftxt {
+  margin-right: 250px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.lftmd {
+   display: flex;
+   margin-left: 150px;
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    border-radius: 10px;
+    width: 350px;
+    height: 430px;
+    align-items: flex-start;
+}
+
+.text-content {
+    text-align: justify;
+    max-width: 600px;
+}
+
+.text-content p {
+    margin: 0 0 20px 0;
+}
+
+.extra {
+    display: none;
+}
+
+.extra-text.show {
+    display: block;
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.list-item {
+    margin-left: 20px;
+    text-align: left;
+}
+
+button {
+    background-color: #1a1a3d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e2e5a;
+}
