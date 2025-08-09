@@ -79,7 +79,7 @@ header {
 .campaign {
   display: flex;
   align-items: center;
-  margin-top: -80px;
+  margin-top: -20px;
 }
 
 .campaign-text {
